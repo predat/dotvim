@@ -26,6 +26,8 @@ Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
 Bundle 'vim-scripts/AutoClose'
 Bundle 'kien/ctrlp.vim'
+Bundle 'jlanzarotta/bufexplorer'
+Bundle 'a.vim'
 
 syntax on
 filetype plugin indent on " required!
