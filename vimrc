@@ -28,6 +28,7 @@ Bundle 'vim-scripts/AutoClose'
 Bundle 'kien/ctrlp.vim'
 Bundle 'jlanzarotta/bufexplorer'
 Bundle 'a.vim'
+Bundle 'plasticboy/vim-markdown'
 
 syntax on
 filetype plugin indent on " required!
@@ -140,5 +141,12 @@ map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 "" automatically open and close the popup menu / preview window
 "au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 "set completeopt=menuone,menu,longest,preview
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Markdown Vim Mode
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vim_markdown_folding_disabled=1
 
 
